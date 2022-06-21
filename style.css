@@ -1,0 +1,31 @@
+body{
+
+    background-color: black;
+}
+
+body.bg_Movies{
+
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8)0%, rgba(0, 0, 0, 0)100%);
+    
+}
+
+header img{
+
+    width: 150px;
+}
+
+#box_login{
+
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 12px;
+   
+}
