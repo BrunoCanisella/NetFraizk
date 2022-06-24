@@ -1,83 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
 
-    <title>Home - NetFraizk</title>
-   
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="styleFirst.css"/>
-    
+    <link rel="stylesheet" href="styleFirst.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
 
-    <header>
-        <div class="center">
+    <div class=" container">
 
-            <div class="header-left">
-                <a href=""><img src="./assets/logo1.png"/></a>
+        <div class="hero">
 
-                <div class="menu-header">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Series</a></li>
-                        <li><a href="">Movie</a></li>
-                        <li><a href="">Recently Added</a></li>
-                        <li><a href="">My List</a></li>
-                    </ul>
+            <div class="header">
 
-                </div><!--menu-->
+                <div class="logo">
+                    <img src="./assets/logo1.png">
+                </div>
 
-            </div><!--header-left-->
+                <div class="menu">
 
-            <div class="header-right">
+                    <div class="menu-left">
+                        <ul>
+                            <li>Home</li>
+                            <li>Series</li>
+                            <li>Movies</li>
+                            <li>Recently Added</li>
+                            <li>My List</li>
+                        </ul>
+                    </div>
 
-                <div class="search">
-                    <i class="icon-search"></i>
-                </div><!--search-->
+                    <div class="menu-right">
 
-                <a href="#">KIDS</a>
-                <i class="icon-gift"></i>
+                        <ul>
+                            <li><i class="fas fa-search"></i></li>
+                            <li>KIDS</li>
+                            <li><i class="fas fa-gift"></i></li>
+                            <li> <i class="fas fa-bell"></i></li>
+                            <li class="user">
+                                <img src="./assets/logo1.png" alt="Imagem de usuario">
+                                <i class="fas fa-short-down"></i>
+                            </li>
+                        </ul>
 
-                <div class="notifications">
-                    <div class="circle-notifications">
-                        <span>10</span>
-                    </div><!--circle-notifications-->
+                    </div>
+                </div>
+                <!--Fecha o Menu-->
+            </div>
+            <!--Fecha o Header-->
 
-                    <i class="icon-bell-alt"></i>
-
-                </div><!--notifications-->
+            <div class="banner">
+                <!--<img src="./assets/banner1.jpg" class="poster" alt="">-->
+                <span class="subtutle">
+                    Esse video é ensinando a fazer um clone da netflix hmtl e css em um video só
+                </span>
                 
-            </div><!--header-right-->
+                <div class="buttons">
+                    <button class="btn"><i class="fas fa-play"></i>Play</button>
+                    <button class="btn"><i class="fas fa-plus"></i>My List</button>
+                </div>
+            </div>
+            <!--Fecha o Banner-->
 
-            <div class="clear"></div>
+            <div class="category">
+                <span>Recommended</span>
 
-        </div><!--center-->
+                <div class="slider">
+                    <!--AQUI EM VEZ DE IMAGEM ELE COLOCOU VIDEOS PEQUENOS GIFFS-->
 
-    </header>
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
 
-    <section class="destaque">
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
 
-        <div class="overlay"></div>
-        <div class="texto-destaque">
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
 
-            <h2>TinTin</h2>
-            <h3>Assista todas as temporadas completas agora!</h3>
-            <p>Aqui vai a descrição completa do filme.</p>
-            <br>
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
 
-            <a href=""><i class="icon-play"></i>Play</a>
-            <a href=""><i class="icon-play"></i>Play</a>
-            <a href=""><i class="icon-play"></i>Play</a>
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="category">
+                <span>Top Movies</span>
+
+                <div class="slider">
+                    <!--AQUI EM VEZ DE IMAGEM ELE COLOCOU VIDEOS PEQUENOS GIFFS-->
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+
+                    <div class="movie">
+                        <img src="./assets/background.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--Fecha as categorias-->
+
+            <div class="footer">
+
+                <div class="social">
+                    <i class="fas fa-facebook-square"></i>
+                    <i class="fas fa-instagram"></i>
+                    <i class="fas fa-twitter"></i>
+                    <i class="fas fa-youtube"></i>
+                </div>
+                <!--Fecha Social-->
+
+                <div class="flex">
+                    <div class="info">
+                        <ul>
+                            <li>Idioma e Legendas</li>
+                            <li>Privacidade</li>
+                            <li>Entrar em contato</li>
+                            <li>Cadastre seu Filme</li>
+                        </ul>
+                    </div>
+
+                    <div class="info">
+                        <ul>
+                            <li>Idioma e Legendas</li>
+                            <li>Privacidade</li>
+                            <li>Entrar em contato</li>
+                            <li>Cadastre seu Filme</li>
+                        </ul>
+                    </div>
+
+                    <div class="info">
+                        <ul>
+                            <li>Idioma e Legendas</li>
+                            <li>Privacidade</li>
+                            <li>Entrar em contato</li>
+                            <li>Cadastre seu Filme</li>
+                        </ul>
+                    </div>
+
+                    <div class="info">
+                        <ul>
+                            <li>Idioma e Legendas</li>
+                            <li>Privacidade</li>
+                            <li>Entrar em contato</li>
+                            <li>Cadastre seu Filme</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Aqui fecha as Informações-->
+            </div>
         </div>
-        
+    </div>
 
-    </section><!--destaque-->
-    
 </body>
 
 </html>
