@@ -12,7 +12,7 @@ body.bg_Movies{
 
 header{
 
-    padding: 50px;
+    padding: 10px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8)0%, rgba(0, 0, 0, 0)100%);
     
 }
@@ -27,5 +27,6 @@ header img{
     background: rgba(0, 0, 0, 0.7);
     padding: 30px;
     border-radius: 12px;
+    
    
 }
