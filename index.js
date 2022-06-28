@@ -60,8 +60,8 @@ let navList = document.querySelector(".nav-list");
 function handleClick() {
 
     console.log("clicado")
-    mobileMenu.classList.toggle(this.activeClass);
-    navList.classList.toggle(this.activeClass);
+    mobileMenu.classList.toggle("nome da classe");
+    navList.classList.toggle("nome da classe");
     animateLinks();
 
 }
