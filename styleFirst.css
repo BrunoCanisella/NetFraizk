@@ -49,9 +49,7 @@ nav {
 
 main {
 
-    /* background: url("./assets/banner2.jpg") no-repeat center;
-    background-size: cover;
-    1326.460.59*/
+  
 }
 
 .banner {
@@ -73,21 +71,45 @@ main {
 
 span {
 
+    position: absolute;
     color: white;
     font-size: 20px;
-    font-weight: 600;
-    position: absolute;
+    font-weight: 400;
     bottom: 190px;
     left: 30px;
 }
 
 .span2{
 
+    position: absolute;
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    top: 695px;
+}
+
+.span3{
+
     position: absolute;
-    top: 690px;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    top: 950px;
+    left: 600px;
+
+}
+
+.separador{
+
+    display: flex;
+    justify-content: center;
+}
+
+.separador div {
+
+    width: 50%;
+    background-color: white;
+    height: 1px;
 }
 
 .slider {
@@ -100,6 +122,16 @@ span {
     right: 0;
 }
 
+.slider{
+
+    margin-top: 0.8rem;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    left: 3.75rem;
+    right: 0;
+
+}
 .slider .movie img {
 
     max-width: 100%;
