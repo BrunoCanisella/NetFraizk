@@ -20,30 +20,6 @@ a:hover {
     cursor: pointer;
 }
 
-span:hover {
-
-    color: red;
-    cursor: pointer;
-}
-
-.span2:hover {
-
-    color: red;
-    cursor: pointer;
-}
-
-.span3:hover {
-
-    color: red;
-    cursor: pointer;
-}
-
-.span4:hover {
-
-    color: red;
-    cursor: pointer;
-}
-
 .logo {
 
     font-size: 24px;
@@ -76,7 +52,7 @@ nav {
 
 main {
 
-  
+    background-color: wheat;
 }
 
 .banner {
@@ -87,6 +63,20 @@ main {
 }
 
 /*Seletor de Filmes*/
+
+span:hover {
+
+    color: red;
+    cursor: pointer;
+}
+
+.span2,
+.span3,
+.span4:hover {
+
+    color: red;
+    cursor: pointer;
+}
 
 .selector-movies {
 
@@ -116,7 +106,7 @@ span {
     left: 30px;
 }
 
-.span2{
+.span2 {
 
     position: absolute;
     color: white;
@@ -125,7 +115,7 @@ span {
     top: 750px;
 }
 
-.span3{
+.span3 {
 
     position: absolute;
     color: white;
@@ -135,7 +125,7 @@ span {
     left: 600px;
 }
 
-.span4{
+.span4 {
 
     position: absolute;
     color: white;
@@ -145,7 +135,7 @@ span {
 
 }
 
-.separador{
+.separador {
 
     display: flex;
     justify-content: center;
@@ -159,7 +149,7 @@ span {
     height: 1px;
 }
 
-.separador .sep{
+.separador .sep {
 
     width: 80%;
     background-color: white;
@@ -180,18 +170,37 @@ span {
 
     width: 240px;
     height: 130px;
-    padding-right: 10px;
+    padding-right: 20px;
     cursor: pointer;
 
 }
 
-.moviebaner img{
+.moviebaner img {
 
     width: 300px;
     height: 350px;
     padding-right: 20px;
     cursor: pointer;
 
+}
+
+.movie img{
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.movie img:hover,
+.movie img:focus,
+.movie img:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /*Seletor de Filmes*/
@@ -215,7 +224,7 @@ footer {
     color: whitesmoke;
 }
 
-.ctt{
+.ctt {
 
     cursor: pointer;
 }
