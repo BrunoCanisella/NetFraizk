@@ -157,7 +157,7 @@ span {
 }
 
 .slider {
-    
+
     display: flex;
     height: auto;
     /*position: absolute;
@@ -178,7 +178,7 @@ span {
 
     width: 300px;
     height: 350px;
-    padding-right: 20px;
+    margin-right: 20px;
     cursor: pointer;
 
 }
