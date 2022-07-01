@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Helvetica";
+    font-family: "Poppins";
 }
 
 a {
@@ -14,7 +16,32 @@ a {
 
 a:hover {
 
-    opacity: 0.7;
+    color: red;
+    cursor: pointer;
+}
+
+span:hover {
+
+    color: red;
+    cursor: pointer;
+}
+
+.span2:hover {
+
+    color: red;
+    cursor: pointer;
+}
+
+.span3:hover {
+
+    color: red;
+    cursor: pointer;
+}
+
+.span4:hover {
+
+    color: red;
+    cursor: pointer;
 }
 
 .logo {
@@ -54,19 +81,29 @@ main {
 
 .banner {
 
-    background-color: blue;
     background-size: cover;
+    height: 365px;
+    width: 1311px;
 }
 
 /*Seletor de Filmes*/
 
 .selector-movies {
 
-    background-color: red;
+    background-color: #14141a;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 250px;
+    height: 300px;
+}
+
+.selector-movies-poster {
+
+    background-color: #14141a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
 }
 
 span {
@@ -85,7 +122,7 @@ span {
     color: white;
     font-size: 20px;
     font-weight: 400;
-    top: 695px;
+    top: 750px;
 }
 
 .span3{
@@ -94,8 +131,17 @@ span {
     color: white;
     font-size: 25px;
     font-weight: 500;
-    top: 950px;
+    top: 1050px;
     left: 600px;
+}
+
+.span4{
+
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    top: 1600px;
 
 }
 
@@ -103,11 +149,19 @@ span {
 
     display: flex;
     justify-content: center;
+    background: #14141a;
 }
 
 .separador div {
 
     width: 50%;
+    background-color: white;
+    height: 1px;
+}
+
+.separador .sep{
+
+    width: 80%;
     background-color: white;
     height: 1px;
 }
@@ -122,20 +176,20 @@ span {
     right: 0;
 }
 
-.slider{
-
-    margin-top: 0.8rem;
-    display: flex;
-    overflow: hidden;
-    position: absolute;
-    left: 3.75rem;
-    right: 0;
-
-}
 .slider .movie img {
 
-    max-width: 100%;
-    padding-right: 5px;
+    width: 200px;
+    height: 114px;
+    padding-right: 10px;
+
+}
+
+.moviebaner img{
+
+    width: 300px;
+    height: 350px;
+    padding-right: 20px;
+
 }
 
 /*Seletor de Filmes*/
@@ -147,15 +201,16 @@ body {
 
 footer {
 
-    background-color: aqua;
+    background-color: #14141a;
     justify-content: center;
     display: flex;
 }
 
 .fim {
 
-    margin: 50px 50px 50px 0px;
+    margin: 50px 100px 50px 0px;
     /*TOP RIGHT BOTTOM LEFT*/
+    color: whitesmoke;
 
 }
 
