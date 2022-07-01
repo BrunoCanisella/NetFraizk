@@ -102,8 +102,8 @@ span {
     color: white;
     font-size: 20px;
     font-weight: 400;
-    bottom: 190px;
-    left: 30px;
+    bottom: 180px;
+    /*left: 30px;*/
 }
 
 .span2 {
@@ -157,10 +157,9 @@ span {
 }
 
 .slider {
-
-    margin-top: 0.8rem;
+    
     display: flex;
-    overflow: hidden;
+    height: auto;
     /*position: absolute;
     left: 3.75rem;
     right: 0;*/
@@ -182,25 +181,6 @@ span {
     padding-right: 20px;
     cursor: pointer;
 
-}
-
-.movie img{
-
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-}
-
-.movie img:hover,
-.movie img:focus,
-.movie img:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 /*Seletor de Filmes*/
