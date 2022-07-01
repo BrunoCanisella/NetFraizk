@@ -171,16 +171,17 @@ span {
     margin-top: 0.8rem;
     display: flex;
     overflow: hidden;
-    position: absolute;
+    /*position: absolute;
     left: 3.75rem;
-    right: 0;
+    right: 0;*/
 }
 
-.slider .movie img {
+.movie img {
 
-    width: 200px;
-    height: 114px;
+    width: 210px;
+    height: 130px;
     padding-right: 10px;
+    cursor: pointer;
 
 }
 
@@ -189,6 +190,7 @@ span {
     width: 300px;
     height: 350px;
     padding-right: 20px;
+    cursor: pointer;
 
 }
 
@@ -211,7 +213,11 @@ footer {
     margin: 50px 100px 50px 0px;
     /*TOP RIGHT BOTTOM LEFT*/
     color: whitesmoke;
+}
 
+.ctt{
+
+    cursor: pointer;
 }
 
 .vermelho {
