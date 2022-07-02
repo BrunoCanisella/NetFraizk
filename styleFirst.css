@@ -98,11 +98,11 @@ span:hover {
 
 span {
 
-    position: absolute;
+    position:absolute ;
     color: white;
     font-size: 20px;
     font-weight: 400;
-    bottom: 180px;
+    bottom: -55px;
     /*left: 30px;*/
 }
 
@@ -112,7 +112,7 @@ span {
     color: white;
     font-size: 20px;
     font-weight: 400;
-    top: 750px;
+    top: 980px;
 }
 
 .span3 {
@@ -121,7 +121,7 @@ span {
     color: white;
     font-size: 25px;
     font-weight: 500;
-    top: 1050px;
+    top: 1280px;
     left: 600px;
 }
 
@@ -131,7 +131,7 @@ span {
     color: white;
     font-size: 20px;
     font-weight: 400;
-    top: 1600px;
+    top: 1830px;
 
 }
 
@@ -187,7 +187,7 @@ span {
 
 body {
 
-    background-color: gray;
+    background-color: black;
 }
 
 footer {
@@ -201,7 +201,7 @@ footer {
 
     margin: 50px 100px 50px 0px;
     /*TOP RIGHT BOTTOM LEFT*/
-    color: whitesmoke;
+    color: black;
 }
 
 .ctt {
