@@ -52,8 +52,36 @@ nav {
 
 main{
 
-    background-color: blue;
+    background-color: #14141a;;
 
+}
+
+section{
+
+    height: 410px;
+    width: 100%; 
+}
+
+.card{
+
+    color:red;
+    height: 100%;
+    width: 100%; 
+}
+
+p{
+    
+    top: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: flex;
+    color: white;
+    cursor: pointer;
+}
+
+p:hover{
+
+    color: red;
 }
 
 footer {
@@ -73,4 +101,18 @@ footer {
 .ctt {
 
     cursor: pointer;
+}
+
+.separador {
+
+    display: flex;
+    justify-content: center;
+    background: #14141a;
+}
+
+.separador div {
+
+    width: 80%;
+    background-color: white;
+    height: 1px;
 }
