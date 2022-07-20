@@ -50,36 +50,28 @@ nav {
 
 }
 
-main{
+main {
 
-    background-color: #14141a;;
+    background-color: #14141a;
 
 }
 
-section{
+section {
 
     height: 410px;
-    width: 100%; 
+    width: 100%;
 }
 
-.card{
-
-    color:red;
-    height: 100%;
-    width: 100%; 
-}
-
-p{
+p {
     
-    top: 50px;
+    position: absolute;
+    margin: 150px 50px 100px 50px;
     font-size: 20px;
     text-align: center;
-    position: flex;
     color: white;
-    cursor: pointer;
 }
 
-p:hover{
+p:hover {
 
     color: red;
 }
@@ -89,18 +81,6 @@ footer {
     background-color: #14141a;
     justify-content: center;
     display: flex;
-}
-
-.fim {
-
-    margin: 50px 100px 50px 0px;
-    /*TOP RIGHT BOTTOM LEFT*/
-    color: white;
-}
-
-.ctt {
-
-    cursor: pointer;
 }
 
 .separador {
@@ -115,4 +95,16 @@ footer {
     width: 80%;
     background-color: white;
     height: 1px;
+}
+
+.fim {
+
+    margin: 50px 100px 50px 0px;
+    /*TOP RIGHT BOTTOM LEFT*/
+    color: white;
+}
+
+.ctt {
+
+    cursor: pointer;
 }
